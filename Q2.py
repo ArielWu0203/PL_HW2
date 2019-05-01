@@ -1,7 +1,6 @@
 import urllib.request
 import re
 from collections import Counter
-import pygal
 
 author_tmp = input ("Input Author: ")
 author_list = author_tmp.split()

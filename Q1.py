@@ -24,7 +24,7 @@ year_str = ""
 for r in result:
     title = r
     title = r.split("is-size-7\"><span class=\"has-text-black-bis has-text-weight-semibold\">Submitted</span>")[1].split(",")[1].split(";")[0]
-    year_str += title+""
+    year_str += title+" "
 
 year_list = year_str.split()
 recounted = Counter(year_list)
